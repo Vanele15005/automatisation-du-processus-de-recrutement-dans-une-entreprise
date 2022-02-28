@@ -1,0 +1,27 @@
+table{
+	width: 100%;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+button{
+	font-size: 16pt;
+	background: black;
+	color: white;
+	padding: 2% 2%;
+	height: 20%;
+	border: none;
+	border-radius: 15px 0px 15px 0px;
+}
+button:hover{
+	background-color: #00ffff;
+}
+body{
+	color :black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(image/1.jpeg);
+	min-height: 100vh;
+}
+

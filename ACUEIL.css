@@ -1,0 +1,50 @@
+body{
+	background-image: url(image/1.jpeg);
+	color :black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+nav{
+		background-color: #d3d3d3;
+	display: flex;
+	justify-content: space-around;
+	border: 3px #d3d3d3 solid;
+}
+#sect{
+	border-radius: 20px 20px 20px 20px;
+	font-size: 14pt;
+	border: 2px double red;
+	padding: 1% 1% 1% 1%;
+	width: 150px;
+	text-align: center;
+	top: 100px;
+}
+#bt1{
+	margin: 4%;
+	padding: 4%;
+}
+#bt2{
+	margin: 4%;
+	padding: 4%;
+}	
+a{
+
+	text-decoration: none;
+	color: green;
+	font-size: 30px;
+	margin-left: 250px;
+}
+a:hover{
+	font-weight: bold;
+	color: orange;
+}
+aside{
+	font-size: 30px;
+	color: white;
+}
+#elements{
+position: relative;
+right: 250px;
+}

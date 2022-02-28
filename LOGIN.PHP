@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AUTHENTIFICATION</title>
+	<link rel="stylesheet" type="text/css" href="AUTH.css">
+</head>
+<body>
+	<div id="container">
+		<form action="verification.php" method="post">
+			<h1>connection</h1>
+			<label><b>Nom d'utilisateur</b></label>
+			<input type="text" placeholder="entrer le nom d'utilisateur" name="username" required>
+			<label><b>Mot de passe</b></label>
+			<input type="password" placeholder="entrer le mot de passe" name="password" required>
+			<input type="submit" id="submit" value="SE CONNECTER">
+			<?php
+			if(isset($_GET['erreur'])){
+			$err = $_GET['erreur'];
+			if($err==1 || $err==2)
+			echo "<p style='color: red'>utilisateur ou mot de passe incorect </p>";
+		}
+			?>
+		</form>
+		
+	</div>
+
+</body>
+</html>
